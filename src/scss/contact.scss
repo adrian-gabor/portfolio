@@ -1,0 +1,98 @@
+.contact {
+    background-color: $color3;
+    padding: 64px 16px 88px;
+
+    @media (min-width: 1024px) {
+        padding: 80px 16px 176px;
+    }
+
+
+    &__description {
+        margin: 32px 0 0 0;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: $col15;
+
+        @media (min-width: 1024px) {
+            margin: 40px 0 0 0;
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+
+    &__header {
+        margin: 0;
+        color: $col16;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            font-size: 48px;
+            line-height: 56px;
+        }
+    }
+
+    &__links {
+        margin: 56px 0 0 0;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            margin: 128px auto 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 580px;
+        }
+    }
+
+    &__mail {
+        margin-top: 68px;
+        padding: 4px 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background-color: $col13;
+        color: $color1;
+        width: 282px;
+        height: 48px;
+        border-radius: 64px;
+
+        @media (min-width: 1024px) {
+            margin-top: 0;
+        }
+    }
+}
+
+
+
+
+.socials {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        margin: 0 12px;
+    }
+
+    &__link {
+        padding: 0px;
+        width: 48px;
+        height: 48px;
+        background-color: $color1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 4px 8px rgba(16, 112, 202, 0.15);
+    }
+
+}
