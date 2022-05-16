@@ -126,12 +126,12 @@
         width: 112px;
         height: 112px;
         object-fit: cover;
-        object-position: -35px;
+        //object-position: -35px;
         border-radius: 50%;
         border: 16px solid $color2;
 
         @media (min-width: 1024px) {
-            object-position: -56px;
+            //object-position: -56px;
             width: 178px;
             height: 178px;
             border: 24px solid $color2;
